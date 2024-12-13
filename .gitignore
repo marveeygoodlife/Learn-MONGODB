@@ -6,6 +6,8 @@ yarn-error.log
 
 # Environment files
 .env
+.env.me
+.env.previous
 
 # Logs
 logs/
@@ -21,3 +23,8 @@ build/
 # OS files
 .DS_Store
 Thumbs.db
+
+.env*
+.flaskenv*
+!.env.project
+!.env.vault
