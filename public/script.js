@@ -6,7 +6,7 @@ event.preventDefault(); //prevent form submittion
 const firstName = document.getElementById('firstname').value.trim();
 const email = document.getElementById('email').value.trim();
 const lastName = document.getElementById('lastname').value.trim();
-
+email.toLowerCase();
 // validation for empty input
 if(!firstName){
     console.log('Please enter your firstname');
